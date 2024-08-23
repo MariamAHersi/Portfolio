@@ -9,4 +9,19 @@ programming languages I learnt, have allowed me to use my projects as
 my creative outlet. I am excited at the prospect of leveraging my skills
 to help improve communities and make an impact.
 
-***Below I will highlight some of my best projects***
+*Below I will highlight some of my best projects: *
+
+**Created my own DBMS:**
+    - Using MySQL, I created a database management system. I created
+      it for my chosen business, a retail company that sells perfumes. It
+     sells its product online and in store with many branches all over
+     London.
+     
+**Created a self-checkout system:**
+    - I used C++ and it involves designing a program that simulates the
+      process of a self-checkout system found in stores.
+      
+**Wrote a report on User Research:**
+    - I wrote a report on my findings from conducting user research
+    methods, such as interviews, creating a persona and a usability
+    test, on the collaboration tool Google Docs.
