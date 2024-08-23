@@ -9,7 +9,7 @@ programming languages I learnt, have allowed me to use my projects as
 my creative outlet. I am excited at the prospect of leveraging my skills
 to help improve communities and make an impact.
 
-*Below I will highlight some of my best projects: *
+*Below I will highlight some of my best projects:*
 
 **Created my own DBMS:**
     - Using MySQL, I created a database management system. I created
