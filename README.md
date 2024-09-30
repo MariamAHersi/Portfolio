@@ -12,16 +12,10 @@ to help improve communities and make an impact.
 *Below I will highlight some of my best projects:*
 
 **Created my own DBMS:**
-    - Using MySQL, I created a database management system. I created
-      it for my chosen business, a retail company that sells perfumes. It
-     sells its product online and in store with many branches all over
-     London.
+    - •	Using MySQL, I created a database management system. I created it for my chosen business, a retail company that sells perfumes. It sells its product online and in store with many branches all over London. I optimized SQL queries for faster product search, and designed ER diagrams for better data visualization.
      
-**Created a self-checkout system:**
-    - I used C++ and it involves designing a program that simulates the
-      process of a self-checkout system found in stores.
+**Data Science Project:**
+    - As part of my second-year coursework, I used healthcare datasets, such as diabetes and breast cancer data, to predict disease outcomes. I applied classification algorithms like Logistic Regression and Decision Trees, utilizing Python (Pandas, scikit-learn) for data cleaning, analysis, and modelling. This project allowed me to deliver insights relevant to healthcare decision-making and showcased my ability to work with complex data in real-world contexts.
       
-**Wrote a report on User Research:**
-    - I wrote a report on my findings from conducting user research
-    methods, such as interviews, creating a persona and a usability
-    test, on the collaboration tool Google Docs.
+**Medical Image Classification:**
+    - •	I developed an image classification model using deep learning techniques to classify diseases from medical imaging datasets, such as X-rays and MRI scans. Utilizing Python and TensorFlow/Keras, I built a Convolutional Neural Network (CNN) to achieve high accuracy in classifying images, showcasing my proficiency in machine learning and deep learning.
