@@ -33,17 +33,17 @@ Developed a blockchain-based savings solution using Stellar SDK, React, Express,
 ```bash
 portfolio-website/
 ├── index.html              # Main entry point (homepage)
-├── about.html              # Optional: About Me page
-├── projects.html           # Optional: Projects showcase
-├── contact.html            # Optional: Contact form/page
+├── about.html              # About Me page
+├── projects.html           # Projects showcase
+├── contact.html            # Contact form/page
 ├── css/
 │   └── styles.css          # Main stylesheet
 ├── images/
 │   ├── profile.jpg         # Your headshot or logo
 │   └── project1.png        # Any project screenshots
 ├── js/
-│   └── script.js           # Optional: JS for interactivity
-├── fonts/                  # Optional: Custom fonts (if used)
+│   └── script.js           # JS for interactivity
+├── fonts/                  # Custom fonts
 └── README.md               # Project documentation
 ```
 
