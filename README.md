@@ -1,21 +1,41 @@
-# Mariam Hersi
+# 💼 Mariam Hersi — Portfolio
 
-## About Me
-Hi! My name is Mariam Hersi. I am a Computer Science Undergraduate currently in my final year
-with a passion for using technology to be a force for good. I have a
-strong interest in software development and problem-solving using
-various programming languages and collaborative teamwork. The
-programming languages I learnt, have allowed me to use my projects as
-my creative outlet. I am excited at the prospect of leveraging my skills
-to help improve communities and make an impact.
+Welcome to my personal portfolio repository! This project showcases my journey as a Computer Science graduate with a strong interest in data science, healthcare technology, and software development. Here, you'll find a curated selection of my academic, personal, and collaborative projects.
 
-*Below I will highlight some of my best projects:*
+## 👩🏽‍🎓 About Me
 
-**Created my own DBMS:**
-    - •	Using MySQL, I created a database management system. I created it for my chosen business, a retail company that sells perfumes. It sells its product online and in store with many branches all over London. I optimized SQL queries for faster product search, and designed ER diagrams for better data visualization.
-     
-**Data Science Project:**
-    - As part of my second-year coursework, I used healthcare datasets, such as diabetes and breast cancer data, to predict disease outcomes. I applied classification algorithms like Logistic Regression and Decision Trees, utilizing Python (Pandas, scikit-learn) for data cleaning, analysis, and modelling. This project allowed me to deliver insights relevant to healthcare decision-making and showcased my ability to work with complex data in real-world contexts.
-      
-**Medical Image Classification:**
-    - •	I developed an image classification model using deep learning techniques to classify diseases from medical imaging datasets, such as X-rays and MRI scans. Utilizing Python and TensorFlow/Keras, I built a Convolutional Neural Network (CNN) to achieve high accuracy in classifying images, showcasing my proficiency in machine learning and deep learning.
+I'm a Computer Science graduate with hands-on experience in data analysis, machine learning, and full-stack development. I’m particularly passionate about leveraging technology to solve real-world problems in healthcare, education, and finance.
+
+This portfolio demonstrates the skills and experience I've developed through university coursework, hackathons, internships, and independent learning.
+
+## 🛠️ Skills & Technologies
+
+- **Languages**: Python, JavaScript, HTML, CSS
+- **Frameworks & Libraries**: React, React Native, Express.js, TensorFlow, Scikit-learn, Pandas, NumPy
+- **Tools & Platforms**: Git, GitHub, MongoDB, VS Code, Jupyter Notebook, Vite, Tailwind CSS
+- **Other**: Agile workflow, REST APIs, Data Visualization, Machine Learning, Deep Learning
+
+## 🌟 Featured Projects
+
+### 🌍 Maternal Health App (Final Year Project)
+A mobile app built with React Native to monitor health metrics for expectant mothers, integrated with location-based services to find nearby maternal health facilities. Includes data analysis on maternal mortality and risk prediction.
+
+### 🧠 Brain Tumor Image Classification
+Used Convolutional Neural Networks (CNNs) with TensorFlow/Keras to classify medical images. Achieved high accuracy and implemented model evaluation and visualization techniques.
+
+### 📊 Health Data Regression Models
+Coursework involving regression models (Linear Regression & Decision Tree) to predict medical outcomes from datasets like diabetes and breast cancer. Included cross-validation, residual analysis, and feature importance evaluation.
+
+### 💸 Decentralized Savings Wallet (Hackathon Project)
+Developed a blockchain-based savings solution using Stellar SDK, React, Express, and MongoDB. Implemented secure transactions, user authentication, and interactive UI.
+
+## 📁 Repository Structure
+
+
+
+###📫 Contact Me
+Email: [your.email@example.com]
+
+LinkedIn: linkedin.com/in/yourprofile
+
+GitHub: github.com/your-username
