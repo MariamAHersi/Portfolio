@@ -48,7 +48,7 @@ npm install
 npm run dev
 ```
 
-##📫 Contact Me
-Email: mariam11h@outlook.com
-LinkedIn: www.linkedin.com/in/mariam-hersi
-GitHub: https://github.com/MariamAHersi/portfolio.git
+## 📫 Contact Me
+-**Email**: mariam11h@outlook.com
+-**LinkedIn**: www.linkedin.com/in/mariam-hersi
+-**GitHub**: https://github.com/MariamAHersi/portfolio.git
