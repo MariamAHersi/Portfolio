@@ -31,7 +31,7 @@ Developed a blockchain-based savings solution using Stellar SDK, React, Express,
 
 ## 📁 Repository Structure
 ```bash
-portfolio-website/
+portfolio/
 ├── index.html              
 ├── about.html              
 ├── projects.html           
