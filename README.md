@@ -33,9 +33,22 @@ Developed a blockchain-based savings solution using Stellar SDK, React, Express,
 
 
 
-###📫 Contact Me
-Email: [your.email@example.com]
+## 🔗 Live Demo
 
-LinkedIn: linkedin.com/in/yourprofile
+[🌐 View My Portfolio](https://your-portfolio-link.com)
 
-GitHub: github.com/your-username
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
+
+##📫 Contact Me
+Email: mariam11h@outlook.com
+LinkedIn: www.linkedin.com/in/mariam-hersi
+GitHub: https://github.com/MariamAHersi/portfolio.git
