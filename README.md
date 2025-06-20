@@ -30,12 +30,26 @@ Coursework involving regression models (Linear Regression & Decision Tree) to pr
 Developed a blockchain-based savings solution using Stellar SDK, React, Express, and MongoDB. Implemented secure transactions, user authentication, and interactive UI.
 
 ## 📁 Repository Structure
-
-
+```bash
+portfolio-website/
+├── index.html              # Main entry point (homepage)
+├── about.html              # Optional: About Me page
+├── projects.html           # Optional: Projects showcase
+├── contact.html            # Optional: Contact form/page
+├── css/
+│   └── styles.css          # Main stylesheet
+├── images/
+│   ├── profile.jpg         # Your headshot or logo
+│   └── project1.png        # Any project screenshots
+├── js/
+│   └── script.js           # Optional: JS for interactivity
+├── fonts/                  # Optional: Custom fonts (if used)
+└── README.md               # Project documentation
+```
 
 ## 🔗 Live Demo
 
-[🌐 View My Portfolio](https://your-portfolio-link.com)
+[🌐 View My Portfolio](https://mariamahersi.github.io/portfolio/)
 
 ## 🚀 Getting Started
 
