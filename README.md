@@ -34,16 +34,10 @@ Developed a blockchain-based savings solution using Stellar SDK, React, Express,
 portfolio/
 ├── index.html              
 ├── about.html              
-├── projects.html           
-├── contact.html            
-├── css/
-│   └── styles.css          
-├── images/
-│   ├── profile.jpg         
-│   └── project1.png        
-├── js/
-│   └── script.js           
-├── fonts/                 
+├── projects.html                      
+├── styles.css          
+├── images/     
+├── script.js                           
 └── README.md              
 ```
 
