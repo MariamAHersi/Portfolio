@@ -227,6 +227,7 @@ nav .container {
     background: #f8f9fa;
     padding: 30px;
     border-radius: 15px;
+    border: none;
     text-align: center;
     transition: transform 0.3s ease;
 }
