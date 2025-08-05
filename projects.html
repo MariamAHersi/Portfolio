@@ -17,48 +17,194 @@
                 </div>
             </div>
         </nav>
-        
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>My Projects</h1>
+            <p>Here you'll find a collection of my academic projects, coding challenges, and creative experiments as I explore the world of computer science. Feel free to browse through the different sections to learn more about my work, interests, and the skills I've developed along the way.</p>
+        </div>
+    </section>
 
     <main class="main-content">
         <div class="container">
-            <section class="intro-section">
-                <h2>My Projects</h2>
-                <p>Here you'll find a collection of my academic projects, coding challenges, and creative experiments as I explore the world of computer science. Feel free to browse through the different sections to learn more about my work, interests, and the skills I've developed along the way.</p>
-            </section>
 
-
-            <section class="preview-cards">
-                <div class="card">
-                    <div class="card-icon">✨</div>
-                    <h3>About Me</h3>
-                    <p>Learn more me, what inspired me to study computer science, the skills I've developed, and the values that drive my work.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">💻</div>
-                    <h3>Projects</h3>
-                    <p>Explore my latest coding projects, from web applications to algorithms and data structures implementations.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">🎓</div>
-                    <h3>Research</h3>
-                    <p>Discover my academic achievements, coursework, and research in computer science and related fields.</p>
+            <!-- Filter Section -->
+            <section class="filter-section">
+                <h2>Browse Projects</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="algorithm">Algorithms</button>
+                    <button class="filter-btn" data-filter="game">Games</button>
                 </div>
             </section>
 
-            <section class="social-links">
-                <a href="https://www.linkedin.com/in/mariam-hersi" class="social-btn linkedin" target="_blank">
-                    <span><i class="fab fa-linkedin-in"></i></span> LinkedIn
-                </a>
+            <!-- Projects Grid -->
+            <section class="projects-grid">
+                <!-- Web Development Projects -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        💻
+                        <div class="project-status status-completed">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">A responsive personal portfolio website built with HTML, CSS, and JavaScript. Features modern design, smooth animations, and mobile optimization.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link link-demo">
+                                <span>🚀</span> Demo
+                            </a>
+                            <a href="#" class="project-link link-github">
+                                <span>📱</span> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                <a href="https://github.com/MariamAHersi/portfolio" class="social-btn github" target="_blank">
-                    <span><i class="fab fa-github"></i></span> GitHub
-                </a>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        💻
+                        <div class="project-status status-completed">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"> Blog Website</h3>
+                        <p class="project-description">A clean, responsive blog site built using HTML, CSS, and JavaScript. It features well-organized posts, an intuitive layout, and a focus on sharing insights and experiences related to tech, coding, and creative problem-solving.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link link-demo">
+                                <span>🚀</span> Demo
+                            </a>
+                            <a href="#" class="project-link link-github">
+                                <span>📱</span> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                <a href="#" class="social-btn blog" target="_blank">
-                    <span><i class="fas fa-pen-nib"></i></span> Blog
-                </a>
-            </section>
-        </div>
-    </main>
-    </body>
+                 <!-- Mobile App Projects -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        📱
+                        <div class="project-status status-completed">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"> Maternal Health App</h3>
+                        <p class="project-description">A mobile application designed to support maternal well-being by tracking vital health metrics and detecting anomalies using risk detection algorithms. It also includes a feature to locate nearby maternal care facilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link link-demo">
+                                <span>🚀</span> Demo
+                            </a>
+                            <a href="#" class="project-link link-github">
+                                <span>📱</span> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Algorithm Projects -->
+                <div class="project-card" data-category="algorithm">
+                    <div class="project-image">
+                        🧮
+                        <div class="project-status status-completed">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Healthcare Prediction Algorithms</h3>
+                        <p class="project-description">Acted as a Data Scientist using real-world healthcare datasets (e.g., diabetes, breast cancer) to predict disease outcomes. Built classification models with Logistic Regression and Decision Trees using Python libraries for data preprocessing, analysis, and predictive modelling.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                            <span class="tech-tag">Algorithms</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link link-demo">
+                                <span>🚀</span> Demo
+                            </a>
+                            <a href="#" class="project-link link-github">
+                                <span>📱</span> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- Algorithm Projects -->
+                <div class="project-card" data-category="algorithm">
+                    <div class="project-image">
+                        🧮
+                        <div class="project-status status-completed">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Brain Tumor Image Classification</h3>
+                        <p class="project-description"> Designed a deep learning model using Convolutional Neural Networks (CNNs) to classify brain tumors from medical images. Built and trained the model using TensorFlow and Keras, achieving high accuracy in detecting tumor types.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">Deep Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link link-demo">
+                                <span>🚀</span> Demo
+                            </a>
+                            <a href="#" class="project-link link-github">
+                                <span>📱</span> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                  <script>
+        // Filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Add smooth scroll behavior for better UX
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
 </html>
+        

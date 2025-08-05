@@ -1,22 +1,327 @@
 <!DOCTYPE html>
 <html lang="en-UK">
     <head>
-        <title>Portfolio</title>
+        <title>Research</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>
     <body>
-        <h1>Welcome to my Portfolio</h1>
-        <p>
-            Here you'll find a collection of my academic projects, 
-            coding challenges, and creative experiments as I explore the world of computer science. 
-            Feel free to browse through the different sections to learn more about my work, interests, 
-            and the skills I've developed along the way.
-        </p>
-        <img src="images/image.jpeg" width="400" height="200" alt="cs image">
-        <p>
-            <button href="www.linkedin.com/in/mariam-hersi">LinkedIn</button><br>
-            <button href="https://github.com/MariamAHersi/portfolio">GitHub</button><br>
-            <button href="">Blog</button>
-        </p>
-    </body>
+        <nav>
+            <div class="container">
+                <a href="#" class="logo">MH</a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="research.html">Research</a>
+                </div>
+            </div>
+        </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Research & Publications</h1>
+            <p>Exploring the frontiers of computer science through literature reviews, academic reports, and research investigations</p>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <div class="container">
+
+            <!-- Filter Section -->
+            <section class="filter-section">
+                <h2>Browse Papers</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Research</button>
+                    <button class="filter-btn" data-filter="web">Literature Reviews</button>
+                    <button class="filter-btn" data-filter="mobile">Technical Reports</button>
+                    <button class="filter-btn" data-filter="algorithm">Research Papers</button>
+                    <button class="filter-btn" data-filter="game">Data Analysis</button>
+                </div>
+            </section>
+
+            <!-- Research Grid -->
+            <section class="research-grid">
+                <!-- Literature Reviews -->
+                <div class="research-card" data-category="literature">
+                    <div class="research-header">
+                        <div class="research-icon">📚</div>
+                        <div>
+                            <h3 class="research-title">Artificial Intelligence in Healthcare: A Systematic Review</h3>
+                            <div class="research-meta">
+                                <span class="meta-item">Literature Review</span>
+                                <span class="meta-item">November 2024</span>
+                                <span class="meta-item">22 pages</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="research-abstract">An extensive literature review examining the applications, benefits, and challenges of AI technologies in healthcare systems. Analyzes 60+ research papers to identify trends and future opportunities.</p>
+                    <div class="research-keywords">
+                        <span class="keyword-tag">Artificial Intelligence</span>
+                        <span class="keyword-tag">Healthcare</span>
+                        <span class="keyword-tag">Machine Learning</span>
+                        <span class="keyword-tag">Medical Diagnosis</span>
+                    </div>
+                    <div class="research-actions">
+                        <a href="#" class="action-btn btn-primary">
+                            <span>📄</span> Read
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>⬇️</span> Download
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>📎</span> Cite
+                        </a>
+                    </div>
+                </div>
+
+             <!-- Technical Reports -->
+                <div class="research-card" data-category="report">
+                    <div class="research-header">
+                        <div class="research-icon">📊</div>
+                        <div>
+                            <h3 class="research-title">Performance Analysis of Cloud Computing Architectures</h3>
+                            <div class="research-meta">
+                                <span class="meta-item">Technical Report</span>
+                                <span class="meta-item">September 2024</span>
+                                <span class="meta-item">25 pages</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="research-abstract">Detailed technical analysis comparing performance metrics of different cloud computing architectures, including latency, throughput, and scalability measurements.</p>
+                    <div class="research-keywords">
+                        <span class="keyword-tag">Cloud Computing</span>
+                        <span class="keyword-tag">Performance</span>
+                        <span class="keyword-tag">Architecture</span>
+                        <span class="keyword-tag">Scalability</span>
+                    </div>
+                    <div class="research-actions">
+                        <a href="#" class="action-btn btn-primary">
+                            <span>📄</span> Read
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>📈</span> Data
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>📎</span> Cite
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Research Papers -->
+                <div class="research-card" data-category="paper">
+                    <div class="research-header">
+                        <div class="research-icon">🧪</div>
+                        <div>
+                            <h3 class="research-title">Novel Approach to Network Intrusion Detection</h3>
+                            <div class="research-meta">
+                                <span class="meta-item">Research Paper</span>
+                                <span class="meta-item">August 2024</span>
+                                <span class="meta-item">12 pages</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="research-abstract">Presents a novel machine learning approach for network intrusion detection, achieving 94% accuracy with reduced false positive rates compared to traditional methods.</p>
+                    <div class="research-keywords">
+                        <span class="keyword-tag">Cybersecurity</span>
+                        <span class="keyword-tag">Intrusion Detection</span>
+                        <span class="keyword-tag">Machine Learning</span>
+                        <span class="keyword-tag">Network Security</span>
+                    </div>
+                    <div class="research-actions">
+                        <a href="#" class="action-btn btn-primary">
+                            <span>📄</span> Read
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>💻</span> Code
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>📎</span> Cite
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Data Analysis -->
+                <div class="research-card" data-category="analysis">
+                    <div class="research-header">
+                        <div class="research-icon">📈</div>
+                        <div>
+                            <h3 class="research-title">Social Media Sentiment Analysis During COVID-19</h3>
+                            <div class="research-meta">
+                                <span class="meta-item">Data Analysis</span>
+                                <span class="meta-item">July 2024</span>
+                                <span class="meta-item">16 pages</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="research-abstract">Large-scale sentiment analysis of social media posts during the COVID-19 pandemic, analyzing over 1 million tweets to understand public perception and emotional trends.</p>
+                    <div class="research-keywords">
+                        <span class="keyword-tag">Sentiment Analysis</span>
+                        <span class="keyword-tag">Social Media</span>
+                        <span class="keyword-tag">COVID-19</span>
+                        <span class="keyword-tag">NLP</span>
+                    </div>
+                    <div class="research-actions">
+                        <a href="#" class="action-btn btn-primary">
+                            <span>📄</span> Read
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>📊</span> Dashboard
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>📎</span> Cite
+                        </a>
+                    </div>
+                </div>
+
+                <div class="research-card" data-category="literature">
+                    <div class="research-header">
+                        <div class="research-icon">🤖</div>
+                        <div>
+                            <h3 class="research-title">Ethics in Artificial Intelligence: Current Challenges</h3>
+                            <div class="research-meta">
+                                <span class="meta-item">Literature Review</span>
+                                <span class="meta-item">June 2024</span>
+                                <span class="meta-item">20 pages</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="research-abstract">Examines ethical considerations in AI development and deployment, reviewing current frameworks, challenges, and proposed solutions from academic and industry perspectives.</p>
+                    <div class="research-keywords">
+                        <span class="keyword-tag">AI Ethics</span>
+                        <span class="keyword-tag">Bias</span>
+                        <span class="keyword-tag">Fairness</span>
+                        <span class="keyword-tag">Governance</span>
+                    </div>
+                    <div class="research-actions">
+                        <a href="#" class="action-btn btn-primary">
+                            <span>📄</span> Read
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>⬇️</span> Download
+                        </a>
+                        <a href="#" class="action-btn btn-secondary">
+                            <span>📎</span> Cite
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Research Areas -->
+            <section class="research-areas">
+                <h3>Research Areas of Interest</h3>
+                <div class="areas-grid">
+                    <div class="area-card">
+                        <div class="area-icon">🤖</div>
+                        <h4 class="area-title">Artificial Intelligence</h4>
+                        <p class="area-description">Machine learning, neural networks, and AI applications in various domains including healthcare and cybersecurity.</p>
+                    </div>
+                    <div class="area-card">
+                        <div class="area-icon">🔒</div>
+                        <h4 class="area-title">Cybersecurity</h4>
+                        <p class="area-description">Network security, intrusion detection, cryptography, and privacy-preserving technologies.</p>
+                    </div>
+                    <div class="area-card">
+                        <div class="area-icon">📊</div>
+                        <h4 class="area-title">Data Science</h4>
+                        <p class="area-description">Big data analytics, data mining, statistical analysis, and predictive modeling techniques.</p>
+                    </div>
+                    <div class="area-card">
+                        <div class="area-icon">☁️</div>
+                        <h4 class="area-title">Cloud Computing</h4>
+                        <p class="area-description">Distributed systems, cloud architectures, performance optimization, and scalability analysis.</p>
+                    </div>
+                </div>
+            </section>
+
+                <!-- Publication Timeline -->
+            <section class="publication-timeline">
+                <h3>Recent Publications Timeline</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">December 2024</div>
+                        <h4 class="timeline-title">Machine Learning in Cybersecurity</h4>
+                        <p class="timeline-description">Comprehensive literature review on ML applications in cybersecurity, published in university research journal.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">November 2024</div>
+                        <h4 class="timeline-title">AI in Healthcare Systems</h4>
+                        <p class="timeline-description">Systematic review of artificial intelligence applications in healthcare, presented at student research conference.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">October 2024</div>
+                        <h4 class="timeline-title">Blockchain Supply Chain Analysis</h4>
+                        <p class="timeline-description">Literature review examining blockchain technology's impact on supply chain transparency and security.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">September 2024</div>
+                        <h4 class="timeline-title">Cloud Performance Analysis</h4>
+                        <p class="timeline-description">Technical report analyzing performance metrics across different cloud computing architectures.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+  <script>
+        // Filter functionality
+        const categoryButtons = document.querySelectorAll('.category-btn');
+        const researchCards = document.querySelectorAll('.research-card');
+
+        categoryButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                categoryButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                researchCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add loading animation for research cards
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all research cards
+        researchCards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
 </html>
