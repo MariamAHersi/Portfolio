@@ -9,7 +9,7 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #cfc1b1 0%, #c1ba9b 100%);
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
     min-height: 100vh;
 }
 
@@ -41,7 +41,7 @@ nav .container {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #667eea;
+    color: #4a4a4a;
     text-decoration: none;
 }
 
@@ -59,11 +59,11 @@ nav .container {
 }
 
 .nav-links a:hover {
-    color: #667eea;
+    color: #4a4a4a;
 }
 
 .nav-links a.active {
-    color: #667eea;
+    color: #4a4a4a;
 }
 
 .nav-links a::after {
@@ -73,7 +73,7 @@ nav .container {
     left: 0;
     width: 0;
     height: 2px;
-    background: #667eea;
+    background: #4a4a4a;
     transition: width 0.3s ease;
 }
 
@@ -190,7 +190,7 @@ nav .container {
 }
 
 .blog {
-    background: #ff6b6b;
+    background: #6b6b6b;
     color: white;
 }
 
@@ -229,7 +229,7 @@ nav .container {
 .card-icon {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #667eea;
+    color: #4a4a4a;
 }
 
 /* About Page Styles */
@@ -255,7 +255,7 @@ nav .container {
     height: 200px;
     border-radius: 50%;
     margin: 0 auto 20px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #4a4a4a, #6b6b6b);
     display: block;
     align-items: center;
     justify-content: center;
@@ -273,7 +273,7 @@ nav .container {
 }
 
 .profile-card .title {
-    color: #667eea;
+    color: #4a4a4a;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -330,7 +330,7 @@ nav .container {
 .skill-category .icon {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #667eea;
+    color: #4a4a4a;
 }
 
 .skill-list {
@@ -341,7 +341,7 @@ nav .container {
 }
 
 .skill-tag {
-    background: #667eea;
+    background: #4a4a4a;
     color: white;
     padding: 5px 15px;
     border-radius: 20px;
@@ -373,7 +373,7 @@ nav .container {
     top: 0;
     bottom: 0;
     width: 2px;
-    background: #667eea;
+    background: #4a4a4a;
 }
 
 .timeline-item {
@@ -392,7 +392,7 @@ nav .container {
     top: 30px;
     width: 16px;
     height: 16px;
-    background: #667eea;
+    background: #4a4a4a;
     border-radius: 50%;
     border: 3px solid white;
 }
@@ -404,7 +404,7 @@ nav .container {
 }
 
 .timeline-item .period {
-    color: #667eea;
+    color: #4a4a4a;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -445,7 +445,7 @@ nav .container {
 .interest-item .icon {
     font-size: 2.5rem;
     margin-bottom: 15px;
-    color: #667eea;
+    color: #4a4a4a;
 }
 
 .interest-item h4 {
@@ -456,7 +456,7 @@ nav .container {
 /* Contact Button */
 .contact-btn {
     display: inline-block;
-    background: #667eea;
+    background: #4a4a4a;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -471,7 +471,6 @@ nav .container {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
-
 
 /* Filter Buttons */
 .filter-section {
@@ -489,9 +488,9 @@ nav .container {
 
 .filter-btn {
     padding: 10px 25px;
-    border: 2px solid #667eea;
+    border: 2px solid #4a4a4a;
     background: transparent;
-    color: #667eea;
+    color: #4a4a4a;
     border-radius: 25px;
     font-weight: 600;
     cursor: pointer;
@@ -500,7 +499,7 @@ nav .container {
 
 .filter-btn:hover,
 .filter-btn.active {
-    background: #667eea;
+    background: #4a4a4a;
     color: white;
     transform: translateY(-2px);
 }
@@ -536,7 +535,7 @@ nav .container {
 
 .project-image {
     height: 200px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #4a4a4a, #6b6b6b);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -603,7 +602,7 @@ nav .container {
 
 .tech-tag {
     background: #f8f9fa;
-    color: #667eea;
+    color: #4a4a4a;
     padding: 4px 12px;
     border-radius: 15px;
     font-size: 0.8rem;
@@ -629,12 +628,12 @@ nav .container {
 }
 
 .link-demo {
-    background: #667eea;
+    background: #4a4a4a;
     color: white;
 }
 
 .link-demo:hover {
-    background: #5a6fd8;
+    background: #3a3a3a;
     transform: translateY(-1px);
 }
 
@@ -660,9 +659,9 @@ nav .container {
 
 .category-btn {
     padding: 12px 30px;
-    border: 2px solid #667eea;
+    border: 2px solid #4a4a4a;
     background: transparent;
-    color: #667eea;
+    color: #4a4a4a;
     border-radius: 30px;
     font-weight: 600;
     cursor: pointer;
@@ -673,13 +672,14 @@ nav .container {
 
 .category-btn:hover,
 .category-btn.active {
-    background: #667eea;
+    background: #4a4a4a;
     color: white;
     transform: translateY(-2px);
 }
+
 /* Featured Research */
-.featured-research {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+.featured-research { 
+    background: linear-gradient(135deg, #4a4a4a, #6b6b6b);
     border-radius: 20px;
     padding: 40px;
     color: white;
@@ -776,7 +776,7 @@ nav .container {
 .research-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #4a4a4a, #6b6b6b);
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -803,7 +803,7 @@ nav .container {
 
 .meta-item {
     background: #f8f9fa;
-    color: #667eea;
+    color: #4a4a4a;
     padding: 4px 12px;
     border-radius: 12px;
     font-size: 0.8rem;
@@ -825,7 +825,7 @@ nav .container {
 }
 
 .keyword-tag {
-    background: #667eea;
+    background: #4a4a4a;
     color: white;
     padding: 4px 10px;
     border-radius: 12px;
@@ -852,12 +852,12 @@ nav .container {
 }
 
 .btn-primary {
-    background: #667eea;
+    background: #4a4a4a;
     color: white;
 }
 
 .btn-primary:hover {
-    background: #5a6fd8;
+    background: #3a3a3a;
     transform: translateY(-1px);
 }
 
@@ -905,7 +905,7 @@ nav .container {
 .area-icon {
     font-size: 2.5rem;
     margin-bottom: 15px;
-    color: #667eea;
+    color: #4a4a4a;
 }
 
 .area-title {
@@ -920,6 +920,7 @@ nav .container {
     font-size: 0.9rem;
     line-height: 1.5;
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
