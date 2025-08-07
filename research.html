@@ -28,16 +28,13 @@
     <main class="main-content">
         <div class="container">
 
-            <!-- Filter Section -->
-            <section class="filter-section">
-                <h2>Browse Papers</h2>
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all">All Research</button>
-                    <button class="filter-btn" data-filter="web">Literature Reviews</button>
-                    <button class="filter-btn" data-filter="mobile">Technical Reports</button>
-                    <button class="filter-btn" data-filter="algorithm">Research Papers</button>
-                    <button class="filter-btn" data-filter="game">Data Analysis</button>
-                </div>
+            <!-- Category Navigation -->
+            <section class="category-nav">
+                <button class="category-btn active" data-filter="all">All Research</button>
+                <button class="category-btn" data-filter="literature">Literature Reviews</button>
+                <button class="category-btn" data-filter="report">Technical Reports</button>
+                <button class="category-btn" data-filter="paper">Research Papers</button>
+                <button class="category-btn" data-filter="analysis">Data Analysis</button>
             </section>
 
             <!-- Research Grid -->
@@ -51,9 +48,10 @@
                             <div class="research-meta">
                                 <span class="meta-item">Literature Review</span>
                                 <span class="meta-item">December 2024</span>
+                            </div>
                         </div>
                     </div>
-                    <p class="research-abstract">An extensive literature review examining the applications, benefits, and challenges of AI technologies in healthcare systems. Analyzes 60+ research papers to identify trends and future opportunities.</p>
+                    <p class="research-abstract">An extensive literature review examining the applications, benefits, and challenges of AI technologies in healthcare systems. Analyses research papers to identify trends and future opportunities.</p>
                     <div class="research-keywords">
                         <span class="keyword-tag">Artificial Intelligence</span>
                         <span class="keyword-tag">Healthcare</span>
@@ -61,61 +59,45 @@
                         <span class="keyword-tag">Medical Diagnosis</span>
                     </div>
                     <div class="research-actions">
-                        <a href="#" class="action-btn btn-primary">
+                        <a href="docs/AI_Bias_in_Healthcare.pdf" class="action-btn btn-primary" target="_blank" rel="noopener noreferrer">
                             <span>📄</span> Read
-                        </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>⬇️</span> Download
-                        </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>📎</span> Cite
                         </a>
                     </div>
                 </div>
 
-             <!-- Technical Reports -->
-                <div class="research-card" data-category="report">
+                <div class="research-card" data-category="literature">
                     <div class="research-header">
-                        <div class="research-icon">📊</div>
+                        <div class="research-icon">📚</div>
                         <div>
-                            <h3 class="research-title">Performance Analysis of Cloud Computing Architectures</h3>
+                            <h3 class="research-title">AI Bias in Facial Recognition </h3>
                             <div class="research-meta">
-                                <span class="meta-item">Technical Report</span>
-                                <span class="meta-item">September 2024</span>
-                                <span class="meta-item">25 pages</span>
+                                <span class="meta-item">Literature Review</span>
+                                <span class="meta-item">December 2024</span>
                             </div>
                         </div>
                     </div>
-                    <p class="research-abstract">Detailed technical analysis comparing performance metrics of different cloud computing architectures, including latency, throughput, and scalability measurements.</p>
+                    <p class="research-abstract">An extensive literature review examining the applications, benefits, and challenges of AI technologies in facial recognition systems. Analyses research papers to identify trends and future opportunities.</p>
                     <div class="research-keywords">
-                        <span class="keyword-tag">Cloud Computing</span>
-                        <span class="keyword-tag">Performance</span>
-                        <span class="keyword-tag">Architecture</span>
-                        <span class="keyword-tag">Scalability</span>
+                        <span class="keyword-tag">Artificial Intelligence</span>
+                        <span class="keyword-tag">Justice System</span>
+                        <span class="keyword-tag">Machine Learning</span>
                     </div>
                     <div class="research-actions">
-                        <a href="#" class="action-btn btn-primary">
+                        <a href="docs/AI_Bias_in_Facial_Recognition.pdf" class="action-btn btn-primary" target="_blank" rel="noopener noreferrer">
                             <span>📄</span> Read
-                        </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>📈</span> Data
-                        </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>📎</span> Cite
                         </a>
                     </div>
                 </div>
-
+             
                 <!-- Research Papers -->
                 <div class="research-card" data-category="paper">
                     <div class="research-header">
                         <div class="research-icon">🧪</div>
                         <div>
-                            <h3 class="research-title">Novel Approach to Network Intrusion Detection</h3>
+                            <h3 class="research-title">Cryprography and Blockchain</h3>
                             <div class="research-meta">
                                 <span class="meta-item">Research Paper</span>
                                 <span class="meta-item">August 2024</span>
-                                <span class="meta-item">12 pages</span>
                             </div>
                         </div>
                     </div>
@@ -127,14 +109,37 @@
                         <span class="keyword-tag">Network Security</span>
                     </div>
                     <div class="research-actions">
-                        <a href="#" class="action-btn btn-primary">
+                        <a href="docs/Cryptography_Mariam.pdf" class="action-btn btn-primary" target="_blank" rel="noopener noreferrer">
                             <span>📄</span> Read
                         </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>💻</span> Code
+                    </div>
+                </div>
+
+                <!-- Technical Reports -->
+                <div class="research-card" data-category="report">
+                    <div class="research-header">
+                        <div class="research-icon">📊</div>
+                        <div>
+                            <h3 class="research-title">Global Power Plant Visualisation</h3>
+                            <div class="research-meta">
+                                <span class="meta-item">Technical Report</span>
+                                <span class="meta-item">September 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="research-abstract">Detailed technical analysis comparing performance metrics of different cloud computing architectures, including latency, throughput, and scalability measurements.</p>
+                    <div class="research-keywords">
+                        <span class="keyword-tag">Cloud Computing</span>
+                        <span class="keyword-tag">Performance</span>
+                        <span class="keyword-tag">Architecture</span>
+                        <span class="keyword-tag">Scalability</span>
+                    </div>
+                    <div class="research-actions">
+                        <a href="docs/Global_Plants_Visualisation.pdf" class="action-btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <span>📄</span> Read
                         </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>📎</span> Cite
+                        <a href="https://colab.research.google.com/drive/1Bx1vhPRP__wRN5NdeQRxDSCOy8Fhrq7E?usp=sharing" class="action-btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                            <span>📈</span> Code
                         </a>
                     </div>
                 </div>
@@ -144,11 +149,10 @@
                     <div class="research-header">
                         <div class="research-icon">📈</div>
                         <div>
-                            <h3 class="research-title">Social Media Sentiment Analysis During COVID-19</h3>
+                            <h3 class="research-title">Chronic Diseases</h3>
                             <div class="research-meta">
                                 <span class="meta-item">Data Analysis</span>
                                 <span class="meta-item">July 2024</span>
-                                <span class="meta-item">16 pages</span>
                             </div>
                         </div>
                     </div>
@@ -160,46 +164,11 @@
                         <span class="keyword-tag">NLP</span>
                     </div>
                     <div class="research-actions">
-                        <a href="#" class="action-btn btn-primary">
+                        <a href="docs/Chronic_Diseases.pdf" class="action-btn btn-primary" target="_blank" rel="noopener noreferrer">
                             <span>📄</span> Read
                         </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>📊</span> Dashboard
-                        </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>📎</span> Cite
-                        </a>
-                    </div>
-                </div>
-
-                <div class="research-card" data-category="literature">
-                    <div class="research-header">
-                        <div class="research-icon">🤖</div>
-                        <div>
-                            <h3 class="research-title">Ethics in Artificial Intelligence: Current Challenges</h3>
-                            <div class="research-meta">
-                                <span class="meta-item">Literature Review</span>
-                                <span class="meta-item">June 2024</span>
-                                <span class="meta-item">20 pages</span>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="research-abstract">Examines ethical considerations in AI development and deployment, reviewing current frameworks, challenges, and proposed solutions from academic and industry perspectives.</p>
-                    <div class="research-keywords">
-                        <span class="keyword-tag">AI Ethics</span>
-                        <span class="keyword-tag">Bias</span>
-                        <span class="keyword-tag">Fairness</span>
-                        <span class="keyword-tag">Governance</span>
-                    </div>
-                    <div class="research-actions">
-                        <a href="#" class="action-btn btn-primary">
-                            <span>📄</span> Read
-                        </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>⬇️</span> Download
-                        </a>
-                        <a href="#" class="action-btn btn-secondary">
-                            <span>📎</span> Cite
+                        <a href="https://colab.research.google.com/drive/1fy8oXiDOAT45Bc12NiddnHWsFpmLaieB?usp=sharing" class="action-btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                            <span>💻</span> Code
                         </a>
                     </div>
                 </div>
@@ -261,7 +230,7 @@
         </div>
     </main>
 
-  <script>
+ <script>
         // Filter functionality
         const categoryButtons = document.querySelectorAll('.category-btn');
         const researchCards = document.querySelectorAll('.research-card');
