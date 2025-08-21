@@ -15,20 +15,6 @@ This portfolio demonstrates the skills and experience I've developed through uni
 - **Tools & Platforms**: Git, GitHub, MongoDB, VS Code, Jupyter Notebook, Vite, Tailwind CSS
 - **Other**: Agile workflow, REST APIs, Data Visualization, Machine Learning, Deep Learning
 
-## 🌟 Featured Projects
-
-### 🌍 Maternal Health App (Final Year Project)
-A mobile app built with React Native to monitor health metrics for expectant mothers, integrated with location-based services to find nearby maternal health facilities. Includes data analysis on maternal mortality and risk prediction.
-
-### 🧠 Brain Tumor Image Classification
-Used Convolutional Neural Networks (CNNs) with TensorFlow/Keras to classify medical images. Achieved high accuracy and implemented model evaluation and visualization techniques.
-
-### 📊 Health Data Regression Models
-Coursework involving regression models (Linear Regression & Decision Tree) to predict medical outcomes from datasets like diabetes and breast cancer. Included cross-validation, residual analysis, and feature importance evaluation.
-
-### 💸 Decentralized Savings Wallet (Hackathon Project)
-Developed a blockchain-based savings solution using Stellar SDK, React, Express, and MongoDB. Implemented secure transactions, user authentication, and interactive UI.
-
 ## 📁 Repository Structure
 ```bash
 portfolio/
