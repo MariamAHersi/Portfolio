@@ -1,10 +1,10 @@
 # 💼 Mariam Hersi — Portfolio
 
-Welcome to my personal portfolio repository! This project showcases my journey as a Computer Science graduate with a strong interest in data science, healthcare technology, and software development. Here, you'll find a curated selection of my academic, personal, and collaborative projects.
+Welcome to my personal portfolio repository! This project showcases my journey with a strong interest in data science, healthcare technology, and software development. Here, you'll find a curated selection of my academic, personal, and collaborative projects.
 
 ## 👩🏽‍🎓 About Me
 
-I'm a Computer Science graduate with hands-on experience in data analysis, machine learning, and full-stack development. I’m particularly passionate about leveraging technology to solve real-world problems in healthcare, education, and finance.
+I'm aN aspiring Data Scientist with hands-on experience in data analysis, machine learning, and full-stack development. I’m particularly passionate about leveraging technology to solve real-world problems in healthcare, education, and finance.
 
 This portfolio demonstrates the skills and experience I've developed through university coursework, hackathons, internships, and independent learning.
 
@@ -43,7 +43,7 @@ portfolio/
 
 ## 🔗 Live Demo
 
-[🌐 View My Portfolio](https://mariamahersi.github.io/portfolio/)
+[🌐 View My Portfolio]( https://mariamahersi.github.io/Portfolio/)
 
 ## 🚀 Getting Started
 
