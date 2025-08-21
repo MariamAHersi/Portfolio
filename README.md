@@ -4,7 +4,7 @@ Welcome to my personal portfolio repository! This project showcases my journey w
 
 ## 👩🏽‍🎓 About Me
 
-I'm aN aspiring Data Scientist with hands-on experience in data analysis, machine learning, and full-stack development. I’m particularly passionate about leveraging technology to solve real-world problems in healthcare, education, and finance.
+I'm an aspiring Data Scientist with hands-on experience in data analysis, machine learning, and full-stack development. I’m particularly passionate about leveraging technology to solve real-world problems in healthcare, education, and finance.
 
 This portfolio demonstrates the skills and experience I've developed through university coursework, hackathons, internships, and independent learning.
 
