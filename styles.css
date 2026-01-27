@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lora:wght@400;500;600&display=swap');
+
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Lora', Georgia, serif;
     line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+    color: #3e2723;
+    background: linear-gradient(135deg, #f5e6d3 0%, #ede0d4 100%);
     min-height: 100vh;
 }
 
@@ -41,8 +43,9 @@ nav .container {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #4a4a4a;
+    color: #6d4c41;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
 }
 
 .nav-links {
@@ -52,18 +55,18 @@ nav .container {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #5d4037;
     font-weight: 500;
     transition: color 0.3s ease;
     position: relative;
 }
 
 .nav-links a:hover {
-    color: #4a4a4a;
+    color: #8d6e63;
 }
 
 .nav-links a.active {
-    color: #4a4a4a;
+    color: #8d6e63;
 }
 
 .nav-links a::after {
@@ -73,7 +76,7 @@ nav .container {
     left: 0;
     width: 0;
     height: 2px;
-    background: #4a4a4a;
+    background: #8d6e63;
     transition: width 0.3s ease;
 }
 
@@ -82,12 +85,35 @@ nav .container {
     width: 100%;
 }
 
-/* Hero Section - Updated for Homepage */
+/* Hero Section - Homepage Only */
 .hero {
     padding: 140px 0 80px;
     min-height: 85vh;
     display: flex;
     align-items: center;
+}
+
+/* Simple Hero for Other Pages */
+.hero.simple-hero {
+    padding: 120px 0 60px;
+    min-height: auto;
+    text-align: center;
+}
+
+.hero.simple-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #3e2723;
+    font-family: 'Playfair Display', serif;
+    text-shadow: none;
+}
+
+.hero.simple-hero p {
+    font-size: 1.1rem;
+    color: #6d4c41;
+    max-width: 700px;
+    margin: 0 auto;
+    text-shadow: none;
 }
 
 .hero-content {
@@ -103,7 +129,7 @@ nav .container {
 
 .subtitle {
     display: inline-block;
-    color: #f59e0b;
+    color: #a1887f;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -115,14 +141,15 @@ nav .container {
     font-size: 3.5rem;
     line-height: 1.2;
     margin-bottom: 1.5rem;
-    color: #1a1a1a;
+    color: #3e2723;
     text-shadow: none;
+    font-family: 'Playfair Display', serif;
 }
 
 .hero-text p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #666;
+    color: #6d4c41;
     margin-bottom: 2rem;
     text-shadow: none;
 }
@@ -134,7 +161,7 @@ nav .container {
 }
 
 .btn-primary {
-    background: #f59e0b;
+    background: #8d6e63;
     color: white;
     padding: 14px 32px;
     border-radius: 8px;
@@ -145,14 +172,14 @@ nav .container {
 }
 
 .btn-primary:hover {
-    background: #d97706;
+    background: #6d4c41;
     transform: translateY(-2px);
-    box-shadow: 0 8px 16px rgba(245, 158, 11, 0.3);
+    box-shadow: 0 8px 16px rgba(141, 110, 99, 0.3);
 }
 
 .btn-secondary {
-    border: 2px solid #333;
-    color: #333;
+    border: 2px solid #8d6e63;
+    color: #8d6e63;
     padding: 14px 32px;
     border-radius: 8px;
     text-decoration: none;
@@ -163,7 +190,7 @@ nav .container {
 }
 
 .btn-secondary:hover {
-    background: #333;
+    background: #8d6e63;
     color: white;
     transform: translateY(-2px);
 }
@@ -181,7 +208,7 @@ nav .container {
     position: absolute;
     width: 500px;
     height: 500px;
-    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    background: linear-gradient(135deg, #d7ccc8 0%, #bcaaa4 100%);
     border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
     z-index: 1;
     animation: blob-morph 8s ease-in-out infinite;
@@ -230,7 +257,8 @@ nav .container {
 .intro-section h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #333;
+    color: #3e2723;
+    font-family: 'Playfair Display', serif;
 }
 
 .intro-section p {
@@ -238,7 +266,7 @@ nav .container {
     line-height: 1.8;
     max-width: 800px;
     margin: 0 auto;
-    color: #666;
+    color: #6d4c41;
 }
 
 /* Featured Image */
@@ -324,20 +352,21 @@ nav .container {
 }
 
 .card h3 {
-    color: #333;
+    color: #3e2723;
     margin-bottom: 15px;
     font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
 }
 
 .card p {
-    color: #666;
+    color: #6d4c41;
     line-height: 1.6;
 }
 
 .card-icon {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #4a4a4a;
+    color: #8d6e63;
 }
 
 /* About Page Styles */
@@ -377,31 +406,33 @@ nav .container {
 .profile-card h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #333;
+    color: #3e2723;
+    font-family: 'Playfair Display', serif;
 }
 
 .profile-card .title {
-    color: #4a4a4a;
+    color: #8d6e63;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
 .profile-card .location {
-    color: #666;
+    color: #6d4c41;
     margin-bottom: 30px;
 }
 
 .about-content h3 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #3e2723;
+    font-family: 'Playfair Display', serif;
 }
 
 .about-content p {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 20px;
-    color: #666;
+    color: #6d4c41;
 }
 
 /* Skills Section */
@@ -412,8 +443,9 @@ nav .container {
 .skills-section h3 {
     font-size: 2rem;
     margin-bottom: 40px;
-    color: #333;
+    color: #3e2723;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .skills-grid {
@@ -432,13 +464,14 @@ nav .container {
 .skill-category h4 {
     font-size: 1.3rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #3e2723;
+    font-family: 'Playfair Display', serif;
 }
 
 .skill-category .icon {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #4a4a4a;
+    color: #8d6e63;
 }
 
 .skill-list {
@@ -449,7 +482,7 @@ nav .container {
 }
 
 .skill-tag {
-    background: #4a4a4a;
+    background: #8d6e63;
     color: white;
     padding: 5px 15px;
     border-radius: 20px;
@@ -465,8 +498,9 @@ nav .container {
 .timeline-section h3 {
     font-size: 2rem;
     margin-bottom: 40px;
-    color: #333;
+    color: #3e2723;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .timeline {
@@ -481,7 +515,7 @@ nav .container {
     top: 0;
     bottom: 0;
     width: 2px;
-    background: #4a4a4a;
+    background: #8d6e63;
 }
 
 .timeline-item {
@@ -500,7 +534,7 @@ nav .container {
     top: 30px;
     width: 16px;
     height: 16px;
-    background: #4a4a4a;
+    background: #8d6e63;
     border-radius: 50%;
     border: 3px solid white;
 }
@@ -508,17 +542,18 @@ nav .container {
 .timeline-item h4 {
     font-size: 1.3rem;
     margin-bottom: 10px;
-    color: #333;
+    color: #3e2723;
+    font-family: 'Playfair Display', serif;
 }
 
 .timeline-item .period {
-    color: #4a4a4a;
+    color: #8d6e63;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .timeline-item p {
-    color: #666;
+    color: #6d4c41;
     line-height: 1.6;
 }
 
@@ -530,7 +565,8 @@ nav .container {
 .interests-section h3 {
     font-size: 2rem;
     margin-bottom: 40px;
-    color: #333;
+    color: #3e2723;
+    font-family: 'Playfair Display', serif;
 }
 
 .interests-grid {
@@ -553,18 +589,18 @@ nav .container {
 .interest-item .icon {
     font-size: 2.5rem;
     margin-bottom: 15px;
-    color: #4a4a4a;
+    color: #8d6e63;
 }
 
 .interest-item h4 {
     font-size: 1.1rem;
-    color: #333;
+    color: #3e2723;
 }
 
 /* Contact Button */
 .contact-btn {
     display: inline-block;
-    background: #4a4a4a;
+    background: #8d6e63;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -572,12 +608,12 @@ nav .container {
     font-weight: 600;
     margin-top: 30px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(141, 110, 99, 0.2);
 }
 
 .contact-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 20px rgba(141, 110, 99, 0.3);
 }
 
 /* Filter Buttons */
