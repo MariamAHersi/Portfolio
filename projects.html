@@ -35,8 +35,8 @@
                     <button class="filter-btn active" data-filter="all">All Projects</button>
                     <button class="filter-btn" data-filter="web">Web Development</button>
                     <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
-                    <button class="filter-btn" data-filter="algorithm">Algorithms</button>
-                    <button class="filter-btn" data-filter="game">Games</button>
+                    <button class="filter-btn" data-filter="algorithm">AI/ML</button>
+                    <button class="filter-btn" data-filter="data">Data</button>
                 </div>
             </section>
 
@@ -284,12 +284,15 @@
                 button.classList.add('active');
 
                 const filterValue = button.getAttribute('data-filter');
+                const board = document.querySelector('.projects-grid');
 
                 projectCards.forEach(card => {
                     if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
                         card.classList.remove('hidden');
+                        board.append(card);
                     } else {
                         card.classList.add('hidden');
+                        board.append(card);
                     }
                 });
             });
